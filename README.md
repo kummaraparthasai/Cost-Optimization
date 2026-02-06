@@ -31,4 +31,13 @@ If a volume is detached or no longer exists, its snapshots are **deleted automat
 
 ---
 
-## 📂 Project Structure
+## 🔐 Security Considerations
+- IAM role follows **least privilege**
+- No AWS credentials are hardcoded
+
+## 🚀 Outcome
+- Eliminated unused EBS snapshots
+- Reduced unnecessary storage costs
+- Improved AWS account resource hygiene
+- Verified deletions through execution output
+
